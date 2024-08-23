@@ -1,9 +1,10 @@
 import requests
+import os
 from github import Github
 from datetime import datetime, timedelta
 
 # Use GitHub's REST API to fetch user information
-g = Github('YOUR_GITHUB_TOKEN')
+g = Github(os.getenv('GITHUB_TOKEN'))
 users = []
 
 # Verifica o limite de taxa
