@@ -19,10 +19,12 @@ jobs:
           node-version: '20' # Define o uso do Node.js 20.x
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Atualize para a versão mais recente disponível
 
       - name: Install dependencies
-        run: pip install requests PyGithub
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests PyGithub
 
       - name: Fetch Top 50 Brazilian GitHub Users
         id: fetch_users
