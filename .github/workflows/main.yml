@@ -63,7 +63,7 @@ jobs:
                       languages[language] = languages.get(language, 0) + 1
                   try:
                       # Fetch commits for the week
-                      commits = repo.get_commits(since=start_of_week, until=end_of-week)
+                      commits = repo.get_commits(since=start_of_week, until=end_of_week)
                       total_commits += commits.totalCount
                   except Exception as e:
                       print(f"Error fetching commits for repo {repo.name}: {e}")
