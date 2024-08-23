@@ -13,6 +13,11 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
+      - name: Set up Node.js 20.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
