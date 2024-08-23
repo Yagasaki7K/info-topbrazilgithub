@@ -16,6 +16,8 @@ today = datetime.now()
 start_of_week = today - timedelta(days=today.weekday())
 end_of_week = start_of_week + timedelta(days=6)
 
+commits = repo.get_commits(since=start_of_week, until=end_of_week)
+
 query = 'location:Brazil sort:followers-desc'
 try:
     result = g.search_users(query)[:50]
