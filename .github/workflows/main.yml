@@ -1,0 +1,78 @@
+name: Update Top 50 Brazilian GitHub Users
+
+on:
+  schedule:
+    - cron: "0 * * * 1-5" # Executa a cada hora, de segunda a sexta-feira
+  workflow_dispatch: # Permite execução manual
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests PyGithub
+
+      - name: Fetch Top 50 Brazilian GitHub Users
+        id: fetch_users
+        run: |
+          import requests
+          from github import Github
+          from datetime import datetime
+          
+          # Use GitHub's REST API to fetch user information
+          g = Github("<YOUR_GITHUB_TOKEN>")
+          users = []
+          
+          query = 'location:Brazil sort:followers-desc'
+          result = g.search_users(query)[:50]
+          
+          for user in result:
+              repos = user.get_repos()
+              languages = {}
+              for repo in repos:
+                  language = repo.language
+                  if language:
+                      languages[language] = languages.get(language, 0) + 1
+              
+              total_commits = sum([repo.get_commits().totalCount for repo in repos])
+              
+              users.append({
+                  "login": user.login,
+                  "languages": sorted(languages.items(), key=lambda item: item[1], reverse=True),
+                  "commits": total_commits
+              })
+          
+          with open('README.md', 'r') as file:
+              readme = file.readlines()
+          
+          start_line = readme.index('<!-- START TOP USERS -->\n')
+          end_line = readme.index('<!-- END TOP USERS -->\n')
+          
+          new_content = ['<!-- START TOP USERS -->\n']
+          for user in users:
+              new_content.append(f"- **{user['login']}**: {', '.join([f'{lang} ({count})' for lang, count in user['languages']])}, **Commits this year:** {user['commits']}\n")
+          new_content.append('<!-- END TOP USERS -->\n')
+          
+          readme[start_line:end_line+1] = new_content
+          
+          with open('README.md', 'w') as file:
+              file.writelines(readme)
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update Top 50 Brazilian GitHub Users [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
