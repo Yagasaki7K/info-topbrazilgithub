@@ -12,11 +12,15 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v3
+        runs:
+          using: 'node20' # Define o uso do Node.js 20.x
 
       - name: Set up Node.js 20.x
         uses: actions/setup-node@v3
         with:
           node-version: '20'
+        runs:
+          using: 'node20' # Define o uso do Node.js 20.x
 
       - name: Set up Python
         uses: actions/setup-python@v3
