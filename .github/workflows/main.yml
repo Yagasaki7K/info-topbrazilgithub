@@ -18,8 +18,10 @@ jobs:
         with:
           node-version: '20' # Define o uso do Node.js 20.x
 
-      - name: Set up Python
+      - name: Set up Python 3.x
         uses: actions/setup-python@v5 # Atualize para a versão mais recente disponível
+        with:
+          python-version: '3.x' # Especifique a versão do Python
 
       - name: Install dependencies
         run: |
