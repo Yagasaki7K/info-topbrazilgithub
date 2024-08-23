@@ -27,10 +27,15 @@ jobs:
           import requests
           from github import Github
           from datetime import datetime, timedelta
+          import time
           
           # Use GitHub's REST API to fetch user information
-          g = Github('${{ secrets.GITHUB_TOKEN }}')
+          g = Github('YOUR_GITHUB_TOKEN')
           users = []
+          
+          # Verifica o limite de taxa
+          rate_limit = g.get_rate_limit()
+          print("Rate Limit:", rate_limit
           
           # Calculate the start and end dates of the current week
           today = datetime.now()
