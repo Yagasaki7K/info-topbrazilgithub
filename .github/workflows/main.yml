@@ -23,6 +23,8 @@ jobs:
 
       - name: Fetch Top 50 Brazilian GitHub Users
         run: python update_users.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push changes
         run: |
