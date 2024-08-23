@@ -34,7 +34,7 @@ jobs:
           from datetime import datetime
           
           # Use GitHub's REST API to fetch user information
-          g = Github("<YOUR_GITHUB_TOKEN>")
+          g = Github("${{ secrets.GITHUB_TOKEN }}")
           users = []
           
           query = 'location:Brazil sort:followers-desc'
@@ -43,12 +43,15 @@ jobs:
           for user in result:
               repos = user.get_repos()
               languages = {}
+              total_commits = 0
               for repo in repos:
                   language = repo.language
                   if language:
                       languages[language] = languages.get(language, 0) + 1
-              
-              total_commits = sum([repo.get_commits().totalCount for repo in repos])
+                  try:
+                      total_commits += repo.get_commits().totalCount
+                  except Exception as e:
+                      print(f"Error fetching commits for repo {repo.name}: {e}")
               
               users.append({
                   "login": user.login,
