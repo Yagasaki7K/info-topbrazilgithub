@@ -23,6 +23,7 @@ jobs:
 
       - name: Fetch Top 50 Brazilian GitHub Users
         run: |
+          python - <<EOF
           import requests
           from github import Github
           from datetime import datetime, timedelta
@@ -62,7 +63,7 @@ jobs:
                       languages[language] = languages.get(language, 0) + 1
                   try:
                       # Fetch commits for the week
-                      commits = repo.get_commits(since=start_of_week, until=end_of_week)
+                      commits = repo.get_commits(since=start_of_week, until=end_of-week)
                       total_commits += commits.totalCount
                   except Exception as e:
                       print(f"Error fetching commits for repo {repo.name}: {e}")
@@ -95,6 +96,7 @@ jobs:
                   file.writelines(readme)
           except Exception as e:
               print(f"Error writing README.md: {e}")
+          EOF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
