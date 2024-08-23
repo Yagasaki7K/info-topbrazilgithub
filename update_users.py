@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import time
 
 # Inicialize o cliente GitHub com o token
-g = Github('YOUR_GITHUB_TOKEN')
+g = Github('GITHUB_TOKEN')
 
 # Verifique o limite de taxa
 rate_limit = g.get_rate_limit().core
