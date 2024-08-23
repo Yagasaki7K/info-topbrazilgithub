@@ -24,58 +24,58 @@ jobs:
       - name: Fetch Top 50 Brazilian GitHub Users
         run: |
           python -c "
-import requests
-from github import Github
-from datetime import datetime, timedelta
-
-# Use GitHub's REST API to fetch user information
-g = Github('${{ secrets.GITHUB_TOKEN }}')
-users = []
-
-# Calculate the start and end dates of the current week
-today = datetime.now()
-start_of_week = today - timedelta(days=today.weekday())
-end_of_week = start_of_week + timedelta(days=6)
-
-query = 'location:Brazil sort:followers-desc'
-result = g.search_users(query)[:50]
-
-for user in result:
-    repos = user.get_repos()
-    languages = {}
-    total_commits = 0
-    for repo in repos:
-        language = repo.language
-        if language:
-            languages[language] = languages.get(language, 0) + 1
-        try:
-            # Fetch commits for the week
-            commits = repo.get_commits(since=start_of_week, until=end_of_week)
-            total_commits += commits.totalCount
-        except Exception as e:
-            print(f\"Error fetching commits for repo {repo.name}: {e}\")
-
-    users.append({
-        \"login\": user.login,
-        \"languages\": sorted(languages.items(), key=lambda item: item[1], reverse=True),
-        \"commits\": total_commits
-    })
-
-with open('README.md', 'r') as file:
-    readme = file.readlines()
-
-start_line = readme.index('<!-- START TOP USERS -->\\n')
-end_line = readme.index('<!-- END TOP USERS -->\\n')
-
-new_content = ['<!-- START TOP USERS -->\\n']
-for user in users:
-    new_content.append(f\"- **{user['login']}**: {', '.join([f'{lang} ({count})' for lang, count in user['languages']])}, **Commits this week:** {user['commits']}\\n\")
-new_content.append('<!-- END TOP USERS -->\\n')
-
-readme[start_line:end_line+1] = new_content
-
-with open('README.md', 'w') as file:
-    file.writelines(readme)
+          import requests
+          from github import Github
+          from datetime import datetime, timedelta
+          
+          # Use GitHub's REST API to fetch user information
+          g = Github('${{ secrets.GITHUB_TOKEN }}')
+          users = []
+          
+          # Calculate the start and end dates of the current week
+          today = datetime.now()
+          start_of_week = today - timedelta(days=today.weekday())
+          end_of_week = start_of_week + timedelta(days=6)
+          
+          query = 'location:Brazil sort:followers-desc'
+          result = g.search_users(query)[:50]
+          
+          for user in result:
+              repos = user.get_repos()
+              languages = {}
+              total_commits = 0
+              for repo in repos:
+                  language = repo.language
+                  if language:
+                      languages[language] = languages.get(language, 0) + 1
+                  try:
+                      # Fetch commits for the week
+                      commits = repo.get_commits(since=start_of_week, until=end_of_week)
+                      total_commits += commits.totalCount
+                  except Exception as e:
+                      print(f\"Error fetching commits for repo {repo.name}: {e}\")
+          
+              users.append({
+                  \"login\": user.login,
+                  \"languages\": sorted(languages.items(), key=lambda item: item[1], reverse=True),
+                  \"commits\": total_commits
+              })
+          
+          with open('README.md', 'r') as file:
+              readme = file.readlines()
+          
+          start_line = readme.index('<!-- START TOP USERS -->\\n')
+          end_line = readme.index('<!-- END TOP USERS -->\\n')
+          
+          new_content = ['<!-- START TOP USERS -->\\n']
+          for user in users:
+              new_content.append(f\"- **{user['login']}**: {', '.join([f'{lang} ({count})' for lang, count in user['languages']])}, **Commits this week:** {user['commits']}\\n\")
+          new_content.append('<!-- END TOP USERS -->\\n')
+          
+          readme[start_line:end_line+1] = new_content
+          
+          with open('README.md', 'w') as file:
+              file.writelines(readme)
           "
 
       - name: Commit and push changes
