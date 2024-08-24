@@ -36,37 +36,37 @@ jobs:
         # Inicialize o cliente GitHub com o token do ambiente
         g = Github(os.getenv('GITHUB_TOKEN'))
 
-        # Verifique o limite de taxa
-        rate_limit = g.get_rate_limit().core
-        if rate_limit.remaining == 0:
-            reset_time = rate_limit.reset - datetime.now()
-            sleep_time = max(reset_time.total_seconds(), 0)
-            print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
-            time.sleep(sleep_time)
+        def handle_rate_limit_exceeded():
+            rate_limit = g.get_rate_limit().core
+            if rate_limit.remaining == 0:
+                reset_time = rate_limit.reset - datetime.now()
+                sleep_time = max(reset_time.total_seconds(), 0)
+                print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
+                time.sleep(sleep_time)
 
         # Busque usuários
         query = 'location:Brazil sort:followers-desc'
         try:
-            result = g.search_users(query)[:50]
+            result = g.search_users(query)[:10]  # Reduzi para os 10 primeiros para testar a estratégia
         except Exception as e:
             print(f"Error fetching users: {e}")
             result = []
 
-        # Gerar o conteúdo para o README.md
         top_users = []
         for user in result:
-            # Buscar informações do perfil do usuário
+            handle_rate_limit_exceeded()  # Verifique o limite antes de cada requisição
+
             name = user.name or "N/A"
             company = user.company or "N/A"
             twitter_username = user.twitter_username or "N/A"
             location = user.location or "N/A"
-            
-            # Contagem de contribuições públicas nos repositórios públicos do usuário
+
+            # Tente buscar eventos, mas lide com limites
             public_contributions = 0
             try:
                 events = user.get_events()
                 for event in events:
-                    if event.type == 'PushEvent' and start_of_week <= event.created_at <= end_of_week:
+                    if event.type == 'PushEvent':
                         public_contributions += 1
             except Exception as e:
                 print(f"Error fetching contributions for user {user.login}: {e}")
