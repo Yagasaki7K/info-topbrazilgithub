@@ -2,7 +2,7 @@ name: Update Top GitHub Users
 
 on:
   schedule:
-    - cron: "0 0 * * 1-5" # Executa diariamente às 00:00, de segunda a sexta-feira
+    - cron: "0 0 * * 1-5"  # Executa diariamente às 00:00, de segunda a sexta-feira
   workflow_dispatch:  # Permite execução manual
 
 permissions:
@@ -25,7 +25,7 @@ jobs:
       run: |
         pip install PyGithub
 
-    - name: Run the update script
+    - name: Run the update script and update README
       run: |
         python - <<EOF
         from github import Github
@@ -57,19 +57,34 @@ jobs:
             print(f"Error fetching users: {e}")
             result = []
 
-        # Processar usuários
+        # Gerar o conteúdo para o README.md
+        top_users = []
         for user in result:
-            print(user.login)  # Exemplo de processamento
+            user_info = f"| [{user.login}]({user.html_url}) | {user.followers} |"
+            top_users.append(user_info)
+
+        # Conteúdo a ser inserido no README
+        top_users_content = "\n".join(top_users)
+        new_content = f"<!-- START TOP USERS -->\n| Username | Followers |\n|----------|-----------|\n{top_users_content}\n<!-- END TOP USERS -->"
+
+        # Ler e atualizar o README.md
+        with open('README.md', 'r') as file:
+            readme_content = file.read()
+
+        updated_readme = readme_content.split('<!-- START TOP USERS -->')[0] + new_content + readme_content.split('<!-- END TOP USERS -->')[1]
+
+        with open('README.md', 'w') as file:
+            file.write(updated_readme)
         EOF
 
     - name: Configure Git user
       run: |
-        git config --global user.email "anderson188.marlon@gmail.com"
+        git config --global user.email "anderson18.marlon@gmail.com"
         git config --global user.name "GitHub Actions"
 
     - name: Commit and push changes
       run: |
-        git add .
+        git add README.md
         git commit -m "Update Top 50 Brazilian GitHub Users [skip ci]"
         git push origin main
       env:
