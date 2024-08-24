@@ -44,11 +44,6 @@ jobs:
             print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
             time.sleep(sleep_time)
 
-        # Defina o intervalo de datas
-        today = datetime.now()
-        start_of_week = today - timedelta(days=today.weekday())
-        end_of_week = start_of_week + timedelta(days=6)
-
         # Busque usuários
         query = 'location:Brazil sort:followers-desc'
         try:
@@ -60,23 +55,28 @@ jobs:
         # Gerar o conteúdo para o README.md
         top_users = []
         for user in result:
-            total_commits = 0
+            # Buscar informações do perfil do usuário
+            name = user.name or "N/A"
+            company = user.company or "N/A"
+            twitter_username = user.twitter_username or "N/A"
+            location = user.location or "N/A"
+            
+            # Contagem de contribuições públicas nos repositórios públicos do usuário
+            public_contributions = 0
             try:
-                # Percorre os repositórios do usuário
-                repos = user.get_repos()
-                for repo in repos:
-                    # Conta os commits no intervalo de tempo
-                    commits = repo.get_commits(since=start_of_week, until=end_of_week, author=user.login)
-                    total_commits += commits.totalCount
+                events = user.get_events()
+                for event in events:
+                    if event.type == 'PushEvent' and start_of_week <= event.created_at <= end_of_week:
+                        public_contributions += 1
             except Exception as e:
-                print(f"Error fetching commits for user {user.login}: {e}")
+                print(f"Error fetching contributions for user {user.login}: {e}")
 
-            user_info = f"| [{user.login}]({user.html_url}) | {user.followers} | {total_commits} |"
+            user_info = f"| {name} | {company} | {twitter_username} | {location} | {public_contributions} |"
             top_users.append(user_info)
 
-        # Conteúdo a ser inserido no README
+        # Conteúdo a ser inserido no README.md
         top_users_content = "\n".join(top_users)
-        new_content = f"<!-- START TOP USERS -->\n| Username | Followers | Commits This Week |\n|----------|-----------|------------------|\n{top_users_content}\n<!-- END TOP USERS -->"
+        new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Public Contributions |\n|------|---------|------------------|----------|---------------------|\n{top_users_content}\n<!-- END TOP USERS -->"
 
         # Ler e atualizar o README.md
         with open('README.md', 'r') as file:
@@ -90,7 +90,7 @@ jobs:
 
     - name: Configure Git user
       run: |
-        git config --global user.email "anderson188.marlon@gmail.com"
+        git config --global user.email "anderson18.marlon@gmail.com"
         git config --global user.name "GitHub Actions"
 
     - name: Commit and push changes
