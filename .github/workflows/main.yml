@@ -2,8 +2,8 @@ name: Update Top GitHub Users
 
 on:
   schedule:
-    - cron: '0 * * * 1-5'
-  workflow_dispatch: 
+    - cron: "0 0 * * 1-5" # Executa diariamente às 00:00, de segunda a sexta-feira
+  workflow_dispatch:  # Permite execução manual
 
 permissions:
   contents: write  # Permite escrita no repositório
@@ -14,24 +14,57 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
+    - name: Install PyGithub
       run: |
-        pip install -r requirements.txt
+        pip install PyGithub
 
     - name: Run the update script
       run: |
-        python update_users.py
+        python - <<EOF
+        from github import Github
+        from datetime import datetime, timedelta
+        import time
+        import os
+
+        # Inicialize o cliente GitHub com o token do ambiente
+        g = Github(os.getenv('GITHUB_TOKEN'))
+
+        # Verifique o limite de taxa
+        rate_limit = g.get_rate_limit().core
+        if rate_limit.remaining == 0:
+            reset_time = rate_limit.reset - datetime.now()
+            sleep_time = max(reset_time.total_seconds(), 0)
+            print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
+            time.sleep(sleep_time)
+
+        # Defina o intervalo de datas
+        today = datetime.now()
+        start_of_week = today - timedelta(days=today.weekday())
+        end_of_week = start_of_week + timedelta(days=6)
+
+        # Busque usuários
+        query = 'location:Brazil sort:followers-desc'
+        try:
+            result = g.search_users(query)[:50]
+        except Exception as e:
+            print(f"Error fetching users: {e}")
+            result = []
+
+        # Processar usuários
+        for user in result:
+            print(user.login)  # Exemplo de processamento
+        EOF
 
     - name: Configure Git user
       run: |
-        git config --global user.email "anderson18.marlon@gmail.com"
+        git config --global user.email "anderson188.marlon@gmail.com"
         git config --global user.name "GitHub Actions"
 
     - name: Commit and push changes
