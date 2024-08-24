@@ -1,31 +1,35 @@
+import os
 from github import Github
-from datetime import datetime, timedelta
-import time
+
+# Configurações
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')  # Certifique-se de definir este token no ambiente
+REPO_FILE_PATH = 'README.md'
 
 # Inicialize o cliente GitHub com o token
-g = Github('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')
+g = Github(GITHUB_TOKEN)
 
-# Verifique o limite de taxa
-rate_limit = g.get_rate_limit().core
-if rate_limit.remaining == 0:
-    reset_time = rate_limit.reset - datetime.now()
-    sleep_time = max(reset_time.total_seconds(), 0)
-    print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
-    time.sleep(sleep_time)
+def fetch_top_users():
+    query = 'location:Brazil sort:followers-desc'
+    users = g.search_users(query)[:50]  # Pegue os 50 usuários mais seguidos
+    return users
 
-# Defina o intervalo de datas
-today = datetime.now()
-start_of_week = today - timedelta(days=today.weekday())
-end_of_week = start_of_week + timedelta(days=6)
+def generate_markdown(users):
+    content = "# Top 50 Brazilian GitHub Users\n\n"
+    content += "| Username | Profile | Commits |\n"
+    content += "|----------|---------|------------|\n"
+    for user in users:
+        content += f"| {user.login} | [Link]({user.html_url}) | {user.get_contributions()} |\n"
+    return content
 
-# Busque usuários
-query = 'location:Brazil sort:followers-desc'
-try:
-    result = g.search_users(query)[:50]
-except Exception as e:
-    print(f"Error fetching users: {e}")
-    result = []
+def update_readme(content):
+    with open(REPO_FILE_PATH, 'w') as file:
+        file.write(content)
 
-# Processar usuários
-for user in result:
-    print(user.login)  # Exemplo de processamento
+def main():
+    users = fetch_top_users()
+    markdown_content = generate_markdown(users)
+    update_readme(markdown_content)
+    print("README.md updated successfully.")
+
+if __name__ == "__main__":
+    main()
