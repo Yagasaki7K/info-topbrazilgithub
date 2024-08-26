@@ -47,7 +47,7 @@ jobs:
         # Busque usuários
         query = 'location:Brazil sort:followers-desc'
         try:
-            result = g.search_users(query)[:50]  # Reduzi para os 50 primeiros para testar a estratégia
+            result = g.search_users(query)[:15]  # Reduzi para os 15 primeiros para testar a estratégia
         except Exception as e:
             print(f"Error fetching users: {e}")
             result = []
