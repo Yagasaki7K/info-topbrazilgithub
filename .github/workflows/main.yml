@@ -29,7 +29,7 @@ jobs:
       run: |
         python - <<EOF
         from github import Github
-        from datetime import datetime, timedelta
+        from datetime import datetime
         import time
         import os
 
@@ -44,25 +44,33 @@ jobs:
                 print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
                 time.sleep(sleep_time)
 
+        # Cache de usuários
+        cached_users = {}  # Ou use um arquivo ou banco de dados para persistência
+
         # Busque usuários
         query = 'location:Brazil sort:followers-desc'
         try:
-            result = g.search_users(query)[:50]  # Agora para os 50 melhores usuários
+            result = g.search_users(query)[:50]
         except Exception as e:
             print(f"Error fetching users: {e}")
             result = []
 
         top_users = []
         for user in result:
-            handle_rate_limit_exceeded()  # Verifique o limite antes de cada requisição
+            handle_rate_limit_exceeded()
 
-            name = user.name or "N/A"
-            company = user.company or "N/A"
-            twitter_username = user.twitter_username or "N/A"
-            location = user.location or "N/A"
-            repositories = user.public_repos
+            if user.login in cached_users:
+                user_info = cached_users[user.login]
+            else:
+                name = user.name or "N/A"
+                company = user.company or "N/A"
+                twitter_username = user.twitter_username or "N/A"
+                location = user.location or "N/A"
+                repositories = user.public_repos
 
-            user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} |"
+                user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} |"
+                cached_users[user.login] = user_info
+
             top_users.append(user_info)
 
         # Conteúdo a ser inserido no README.md
