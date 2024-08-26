@@ -1,6 +1,6 @@
 # Top Brazil Github Users
 
-List of top 50 Github Brasil members based on `public contributions` and `private contribution` by Brazil.
+List of top 50 Github Brasil members based in your followers.
 
 <!-- START TOP USERS -->
 | Name | Company | Twitter Username | Location | Repositories |
