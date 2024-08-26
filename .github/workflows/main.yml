@@ -2,7 +2,7 @@ name: Update Top GitHub Users
 
 on:
   schedule:
-    - cron: "0 0 * * 1-5"  # Executa diariamente às 00:00, de segunda a sexta-feira
+    - cron: "0 * * * 1-5"  # Executa a cada hora, de segunda a sexta-feira
   workflow_dispatch:  # Permite execução manual
 
 permissions:
@@ -47,7 +47,7 @@ jobs:
         # Busque usuários
         query = 'location:Brazil sort:followers-desc'
         try:
-            result = g.search_users(query)[:15]  # Reduzi para os 15 primeiros para testar a estratégia
+            result = g.search_users(query)[:50]  # Agora para os 50 melhores usuários
         except Exception as e:
             print(f"Error fetching users: {e}")
             result = []
@@ -60,23 +60,14 @@ jobs:
             company = user.company or "N/A"
             twitter_username = user.twitter_username or "N/A"
             location = user.location or "N/A"
+            repositories = user.public_repos
 
-            # Tente buscar eventos, mas lide com limites
-            public_contributions = 0
-            try:
-                events = user.get_events()
-                for event in events:
-                    if event.type == 'PushEvent':
-                        public_contributions += 1
-            except Exception as e:
-                print(f"Error fetching contributions for user {user.login}: {e}")
-
-            user_info = f"| {name} | {company} | {twitter_username} | {location} | {public_contributions} |"
+            user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} |"
             top_users.append(user_info)
 
         # Conteúdo a ser inserido no README.md
         top_users_content = "\n".join(top_users)
-        new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Public Contributions |\n|------|---------|------------------|----------|---------------------|\n{top_users_content}\n<!-- END TOP USERS -->"
+        new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Repositories |\n|------|---------|------------------|----------|--------------|\n{top_users_content}\n<!-- END TOP USERS -->"
 
         # Ler e atualizar o README.md
         with open('README.md', 'r') as file:
