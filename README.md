@@ -6,7 +6,7 @@ List of most active GitHub users based on `public contributions` and `private co
 | Name | Company | Twitter Username | Location | Public Contributions |
 |------|---------|------------------|----------|---------------------|
 | Gustavo Guanabara | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 0 |
-| Mayk Brito | @Rocketseat  | N/A | Brazil | 55 |
+| Mayk Brito | @Rocketseat  | N/A | Brazil | 50 |
 | Nelio Alves | @devsuperior  | N/A | Brazil | 26 |
 | Gustavo Guanabara | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 0 |
 | Fabio Akita | Codeminer 42 | akitaonrails | Brazil | 3 |
