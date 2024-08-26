@@ -62,26 +62,12 @@ jobs:
             location = user.location or "N/A"
             repositories = user.public_repos
 
-            # Calcular o número de commits na última semana
-            one_week_ago = datetime.now() - timedelta(days=7)
-            commits_last_week = 0
-            try:
-                for repo in user.get_repos():
-                    handle_rate_limit_exceeded()
-                    commits = repo.get_commits(since=one_week_ago)
-                    commits_last_week += commits.totalCount
-            except Exception as e:
-                print(f"Error fetching commits for user {user.login}: {e}")
-
-            user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} | {commits_last_week} |"
+            user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} |"
             top_users.append(user_info)
-
-        # Ordenar os usuários pela quantidade de commits na semana, em ordem decrescente
-        top_users.sort(key=lambda x: int(x.split('|')[-2].strip()), reverse=True)
 
         # Conteúdo a ser inserido no README.md
         top_users_content = "\n".join(top_users)
-        new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Repositories | Commits Last Week |\n|------|---------|------------------|----------|--------------|-------------------|\n{top_users_content}\n<!-- END TOP USERS -->"
+        new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Repositories |\n|------|---------|------------------|----------|--------------|\n{top_users_content}\n<!-- END TOP USERS -->"
 
         # Ler e atualizar o README.md
         with open('README.md', 'r') as file:
