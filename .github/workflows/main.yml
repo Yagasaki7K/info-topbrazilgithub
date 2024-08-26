@@ -33,7 +33,6 @@ jobs:
         import time
         import os
 
-        # Inicialize o cliente GitHub com o token do ambiente
         g = Github(os.getenv('GITHUB_TOKEN'))
 
         def handle_rate_limit_exceeded():
@@ -44,10 +43,8 @@ jobs:
                 print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
                 time.sleep(sleep_time)
 
-        # Cache de usuários
         cached_users = {}  # Ou use um arquivo ou banco de dados para persistência
 
-        # Busque usuários
         query = 'location:Brazil sort:followers-desc'
         try:
             result = g.search_users(query)[:50]
@@ -73,11 +70,9 @@ jobs:
 
             top_users.append(user_info)
 
-        # Conteúdo a ser inserido no README.md
         top_users_content = "\n".join(top_users)
         new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Repositories |\n|------|---------|------------------|----------|--------------|\n{top_users_content}\n<!-- END TOP USERS -->"
 
-        # Ler e atualizar o README.md
         with open('README.md', 'r') as file:
             readme_content = file.read()
 
@@ -92,10 +87,14 @@ jobs:
         git config --global user.email "anderson18.marlon@gmail.com"
         git config --global user.name "GitHub Actions"
 
-    - name: Commit and push changes
+    - name: Commit and push changes if README is updated
       run: |
-        git add README.md
-        git commit -m "Update Top 50 Brazilian GitHub Users [skip ci]"
-        git push origin main
+        if ! git diff --quiet README.md; then
+          git add README.md
+          git commit -m "Update Top 50 Brazilian GitHub Users [skip ci]"
+          git push origin main
+        else
+          echo "No changes to commit."
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
