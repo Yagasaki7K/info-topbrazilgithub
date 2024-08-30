@@ -49,7 +49,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Rafael Caferati](https://github.com/rcaferati) | N/A | rcaferati | Brazil | 6 |
 | [Fernando Daciuk](https://github.com/fdaciuk) | @conta-simples, @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
-| [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 237 |
+| [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 236 |
 | [Laura Beatris](https://github.com/LauraBeatris) | N/A | lauradotjs | Florianópolis, Brazil | 113 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
