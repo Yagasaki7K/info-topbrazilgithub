@@ -18,7 +18,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 35 |
 | [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 99 |
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 4 |
-| [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 261 |
+| [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 262 |
 | [Yuri](https://github.com/isyuricunha) | N/A | isyuricunha | Brazil | 65 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 73 |
 | [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 251 |
@@ -47,7 +47,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 14 |
 | [Carlos Alexandro Becker](https://github.com/caarlos0) | @charmbracelet @goreleaser | caarlos0 | Brazil | 98 |
 | [Rafael Caferati](https://github.com/rcaferati) | N/A | rcaferati | Brazil | 6 |
-| [Fernando Daciuk](https://github.com/fdaciuk) | @conta-simples, @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
+| [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 236 |
 | [Laura Beatris](https://github.com/LauraBeatris) | N/A | lauradotjs | Florianópolis, Brazil | 113 |
