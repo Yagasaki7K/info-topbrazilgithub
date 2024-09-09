@@ -40,8 +40,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 408 |
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 56 |
 | [Paulo Silveira](https://github.com/peas) | @caelum, @alura-cursos, Casa do Código, GUJ  | paulo_caelum | São Paulo, Brazil | 16 |
-| [cypherm0nk](https://github.com/cypherm0nk) | E Corp | N/A | Brazil | 10 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 178 |
+| [cypherm0nk](https://github.com/cypherm0nk) | E Corp | N/A | Brazil | 10 |
 | [Gabriela Pinheiro](https://github.com/SpruceGabriela) | Caju Benefícios | N/A | São Paulo, SP - Brazil | 52 |
 | [Gabriel Froes](https://github.com/gabrielfroes) | Código Fonte TV & RW Studio | N/A | São José dos Campos - SP - Brazil | 30 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 14 |
