@@ -24,8 +24,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 251 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 219 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
-| [Jèfferson Gonçalves](https://github.com/jeffersonsimaogoncalves) | JSG Tecnologia | jsimaogoncalves | Assis/SP - Brazil | 1078 |
-| [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 21 |
+| [Jèfferson Gonçalves](https://github.com/jeffersonsimaogoncalves) | JSG Tecnologia | jsimaogoncalves | Assis/SP - Brazil | 1079 |
+| [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 22 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 190 |
