@@ -31,7 +31,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 190 |
 | [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 176 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
-| [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 173 |
+| [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Riacho de Santana - Bahia - Brazil | 31 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 198 |
