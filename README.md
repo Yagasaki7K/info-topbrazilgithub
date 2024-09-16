@@ -20,8 +20,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 4 |
 | [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 263 |
 | [Yuri](https://github.com/isyuricunha) | N/A | isyuricunha | Brazil | 65 |
-| [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 74 |
 | [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 251 |
+| [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 74 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 219 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 23 |
