@@ -25,10 +25,10 @@ List of top 50 Github Brasil members based in your followers.
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 219 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 23 |
-| [Jèfferson Gonçalves](https://github.com/jeffersonsimaogoncalves) | JSG Tecnologia | jsimaogoncalves | Assis/SP - Brazil | 1082 |
+| [Jèfferson Gonçalves](https://github.com/jeffersonsimaogoncalves) | JSG Tecnologia | jsimaogoncalves | Assis/SP - Brazil | 1084 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
-| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 191 |
+| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 192 |
 | [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 179 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
