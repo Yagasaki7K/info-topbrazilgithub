@@ -13,7 +13,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Erick Wendel](https://github.com/ErickWendel) | @training-erickwendel | erickwendel_ | São Paulo - Brazil | 303 |
 | [Arthur Coutinho](https://github.com/arthurspk) | Guia Dev Brasil | manotoquinho | Alagoas, Brazil | 161 |
 | [Aline Angela Ibers](https://github.com/alineai18) | XSS | N/A | Brazil | 4 |
-| [Eli](https://github.com/elidianaandrade) | @digitalinnovationone | N/A | Brazil | 8 |
+| [Eli](https://github.com/elidianaandrade) | @digitalinnovationone | N/A | Brazil | 7 |
 | [Camila Cavalcante](https://github.com/cami-la) | N/A | N/A | Pernambuco, Brazil | 160 |
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 35 |
 | [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 99 |
@@ -29,7 +29,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 192 |
-| [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 180 |
+| [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 181 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
