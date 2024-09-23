@@ -25,10 +25,9 @@ List of top 50 Github Brasil members based in your followers.
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 219 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 23 |
-| [Jèfferson Gonçalves](https://github.com/jeffersonsimaogoncalves) | JSG Tecnologia | jsimaogoncalves | Assis/SP - Brazil | 1086 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
-| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 192 |
+| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 194 |
 | [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 181 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
@@ -55,4 +54,5 @@ List of top 50 Github Brasil members based in your followers.
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
 | [Ana Luiza Portello Bastos](https://github.com/anabastos) | Tino | N/A | São Paulo / SP, Brazil | 56 |
+| [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 39 |
 <!-- END TOP USERS -->
