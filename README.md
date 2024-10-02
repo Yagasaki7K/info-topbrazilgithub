@@ -50,7 +50,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 238 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | N/A | lauradotjs | Florianópolis, Brazil | 113 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1492 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1493 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
 | [Ana Luiza Portello Bastos](https://github.com/anabastos) | Tino | N/A | São Paulo / SP, Brazil | 56 |
