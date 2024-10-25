@@ -26,14 +26,14 @@ List of top 50 Github Brasil members based in your followers.
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 219 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
-| [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 32 |
+| [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 186 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 198 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
-| [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 199 |
+| [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 198 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 11 |
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 56 |
 | [Eduardo Pires](https://github.com/EduardoPires) | @desenvolvedor-io  | N/A | São Paulo - Brazil | 42 |
@@ -50,7 +50,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 238 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | N/A | lauradotjs | Florianópolis, Brazil | 114 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1504 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1505 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 39 |
