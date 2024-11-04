@@ -10,7 +10,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Nelio Alves](https://github.com/acenelio) | @devsuperior  | N/A | Brazil | 286 |
 | [Gustavo Guanabara](https://github.com/professorguanabara) | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 6 |
 | [Fabio Akita](https://github.com/akitaonrails) | Codeminer 42 | akitaonrails | Brazil | 118 |
-| [Erick Wendel](https://github.com/ErickWendel) | @training-erickwendel | erickwendel_ | São Paulo - Brazil | 306 |
+| [Erick Wendel](https://github.com/ErickWendel) | @training-erickwendel | erickwendel_ | São Paulo - Brazil | 307 |
 | [Arthur Coutinho](https://github.com/arthurspk) | Guia Dev Brasil | manotoquinho | Alagoas, Brazil | 161 |
 | [Eli](https://github.com/elidianaandrade) | @digitalinnovationone | N/A | Brazil | 7 |
 | [Aline Angela Ibers](https://github.com/alineai18) | XSS | N/A | Brazil | 4 |
