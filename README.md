@@ -19,7 +19,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 99 |
 | [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 256 |
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 5 |
-| [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 32 |
+| [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 31 |
 | [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 273 |
 | [Yuri](https://github.com/isyuricunha) | N/A | isyuricunha | Brazil | 67 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 75 |
@@ -29,7 +29,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 26 |
 | [Daniel Reis](https://github.com/DanielHe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 189 |
-| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 199 |
+| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 200 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
