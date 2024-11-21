@@ -21,7 +21,6 @@ List of top 50 Github Brasil members based in your followers.
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 5 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 32 |
 | [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 274 |
-| [Yuri](https://github.com/isyuricunha) | N/A | isyuricunha | Brazil | 67 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 75 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 219 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
@@ -55,4 +54,5 @@ List of top 50 Github Brasil members based in your followers.
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 71 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 41 |
+| [Ana Luiza Portello Bastos](https://github.com/anabastos) | Tino | N/A | São Paulo / SP, Brazil | 56 |
 <!-- END TOP USERS -->
