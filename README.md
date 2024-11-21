@@ -6,7 +6,7 @@ List of top 50 Github Brasil members based in your followers.
 | Name | Company | Twitter Username | Location | Repositories |
 |------|---------|------------------|----------|--------------|
 | [Gustavo Guanabara](https://github.com/gustavoguanabara) | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 7 |
-| [Mayk Brito](https://github.com/maykbrito) | @Rocketseat  | N/A | Brazil | 138 |
+| [Mayk Brito](https://github.com/maykbrito) | @Rocketseat  | N/A | Brazil | 139 |
 | [Nelio Alves](https://github.com/acenelio) | @devsuperior  | N/A | Brazil | 286 |
 | [Gustavo Guanabara](https://github.com/professorguanabara) | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 6 |
 | [Fabio Akita](https://github.com/akitaonrails) | Codeminer 42 | akitaonrails | Brazil | 118 |
@@ -50,7 +50,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 117 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1527 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1528 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 71 |
