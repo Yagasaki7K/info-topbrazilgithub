@@ -42,8 +42,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 16 |
 | [cypherm0nk](https://github.com/cypherm0nk) | E Corp | N/A | Brazil | 10 |
 | [Gabriel Froes](https://github.com/gabrielfroes) | Código Fonte TV & RW Studio | N/A | São José dos Campos - SP - Brazil | 31 |
-| [Carlos Alexandro Becker](https://github.com/caarlos0) | @charmbracelet @goreleaser | caarlos0 | Brazil | 101 |
 | [Gabriela Pinheiro](https://github.com/SpruceGabriela) | Caju Benefícios | N/A | São Paulo, SP - Brazil | 52 |
+| [Carlos Alexandro Becker](https://github.com/caarlos0) | @charmbracelet @goreleaser | caarlos0 | Brazil | 101 |
 | [Rafael Caferati](https://github.com/rcaferati) | N/A | rcaferati | Brazil | 6 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 238 |
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
