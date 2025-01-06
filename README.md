@@ -6,7 +6,7 @@ List of top 50 Github Brasil members based in your followers.
 | Name | Company | Twitter Username | Location | Repositories |
 |------|---------|------------------|----------|--------------|
 | [Gustavo Guanabara](https://github.com/gustavoguanabara) | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 7 |
-| [Mayk Brito](https://github.com/maykbrito) | @Rocketseat  | N/A | Brazil | 139 |
+| [Mayk Brito](https://github.com/maykbrito) | @Rocketseat  | N/A | Brazil | 138 |
 | [Nelio Alves](https://github.com/acenelio) | @devsuperior  | N/A | Brazil | 286 |
 | [Gustavo Guanabara](https://github.com/professorguanabara) | Curso em Vídeo | N/A | Rio de Janeiro, Brazil | 6 |
 | [Fabio Akita](https://github.com/akitaonrails) | Codeminer 42 | akitaonrails | Brazil | 118 |
@@ -25,8 +25,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 222 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 62 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
-| [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 32 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 25 |
+| [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 32 |
 | [Daniel Reis](https://github.com/danielhe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 189 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 202 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 16 |
