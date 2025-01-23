@@ -27,7 +27,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | Unisys Informática | N/A | Campo Grande, MS - Brazil | 25 |
 | [Daniel Reis](https://github.com/danielhe4rt) | @ScyllaDB  | danielhe4rt | Brazil | 194 |
-| [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 33 |
+| [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 32 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 204 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 15 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
@@ -49,7 +49,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 119 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1556 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1557 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 45 |
