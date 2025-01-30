@@ -35,7 +35,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 199 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 11 |
-| [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 181 |
+| [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 182 |
 | [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 410 |
 | [Eduardo Pires](https://github.com/EduardoPires) | @desenvolvedor-io  | N/A | São Paulo - Brazil | 51 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 16 |
