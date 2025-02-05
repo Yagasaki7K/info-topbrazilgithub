@@ -30,8 +30,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 206 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 33 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 15 |
-| [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 56 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 174 |
+| [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 56 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 199 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 11 |
@@ -52,7 +52,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1566 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
-| [Monica Hillman](https://github.com/MonicaHillman) | MagaluPay, Alura and TripleTen | monihillman | São Paulo - SP, Brazil | 68 |
+| [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura and TripleTen | monihillman | São Paulo - SP, Brazil | 68 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 46 |
 | [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
 <!-- END TOP USERS -->
