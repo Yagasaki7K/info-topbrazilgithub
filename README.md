@@ -13,7 +13,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Erick Wendel](https://github.com/ErickWendel) | @ew-academy  | erickwendel_ | São Paulo - Brazil | 313 |
 | [Arthur Coutinho](https://github.com/arthurspk) | Guia Dev Brasil | manotoquinho | Alagoas, Brazil | 161 |
 | [Eli](https://github.com/elidianaandrade) | @digitalinnovationone | N/A | Brazil | 7 |
-| [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 266 |
+| [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 268 |
 | [Aline Angela Ibers](https://github.com/alineai18) | XSS | N/A | Brazil | 4 |
 | [Camila Cavalcante](https://github.com/cami-la) | N/A | N/A | Pernambuco, Brazil | 163 |
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 35 |
@@ -35,8 +35,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 199 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 11 |
-| [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 182 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 238 |
+| [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 182 |
 | [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 410 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 16 |
 | [Eduardo Pires](https://github.com/EduardoPires) | @desenvolvedor-io  | N/A | São Paulo - Brazil | 51 |
