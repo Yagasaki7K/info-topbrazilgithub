@@ -54,5 +54,5 @@ List of top 50 Github Brasil members based in your followers.
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura and TripleTen | monihillman | São Paulo - SP, Brazil | 68 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 47 |
-| [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 41 |
+| [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 <!-- END TOP USERS -->
