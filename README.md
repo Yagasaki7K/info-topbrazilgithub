@@ -19,7 +19,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 35 |
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 5 |
 | [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 99 |
-| [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 35 |
+| [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 36 |
 | [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 284 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 77 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 223 |
@@ -37,8 +37,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 238 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 11 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 183 |
-| [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 410 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 16 |
+| [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 410 |
 | [Eduardo Pires](https://github.com/EduardoPires) | @desenvolvedor-io  | N/A | São Paulo - Brazil | 56 |
 | [Paulo Silveira](https://github.com/peas) | @caelum, @alura-cursos, Casa do Código, GUJ  | paulo_caelum | São Paulo, Brazil | 16 |
 | [Gabriel Froes](https://github.com/gabrielfroes) | Código Fonte TV & RW Studio | N/A | São José dos Campos - SP - Brazil | 32 |
