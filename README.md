@@ -52,7 +52,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1568 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 57 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
-| [Jonny Borges](https://github.com/jonataslaw) | N/A | N/A | São Paulo, Brazil | 273 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura and TripleTen | monihillman | São Paulo - SP, Brazil | 68 |
+| [Jonny Borges](https://github.com/jonataslaw) | N/A | N/A | São Paulo, Brazil | 273 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 47 |
 <!-- END TOP USERS -->
