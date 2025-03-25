@@ -21,7 +21,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 35 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 37 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 78 |
-| [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 290 |
+| [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 291 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 223 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 64 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 15 |
