@@ -34,7 +34,6 @@ List of top 50 Github Brasil members based in your followers.
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 179 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 15 |
-| [Rodrigo Gonçalves](https://github.com/orodrigogo) | @rocketseat | N/A | Brazil | 203 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 185 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 17 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 11 |
@@ -55,4 +54,5 @@ List of top 50 Github Brasil members based in your followers.
 | [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 50 |
 | [Jonny Borges](https://github.com/jonataslaw) | N/A | N/A | São Paulo, Brazil | 273 |
+| [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 43 |
 <!-- END TOP USERS -->
