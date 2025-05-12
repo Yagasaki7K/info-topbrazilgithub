@@ -17,7 +17,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Aline Angela Ibers](https://github.com/alineai18) | XSS | N/A | Brazil | 4 |
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 5 |
 | [Camila Cavalcante](https://github.com/cami-la) | N/A | N/A | Pernambuco, Brazil | 163 |
-| [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 105 |
+| [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 106 |
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 36 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 42 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 80 |
@@ -48,7 +48,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 202 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 119 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1613 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1616 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 59 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 71 |
