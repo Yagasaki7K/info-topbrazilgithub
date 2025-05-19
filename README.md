@@ -27,11 +27,11 @@ List of top 50 Github Brasil members based in your followers.
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 4 |
 | [Aliane E. Amaral](https://github.com/AlianeAmaral) | @ AZ Tecnologia | @ EFCAZ | N/A | Campo Grande, MS - Brazil | 26 |
 | [Daniel Reis](https://github.com/danielhe4rt) | N/A | danielhe4rt | Brazil | 210 |
-| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 209 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 237 |
+| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 209 |
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 57 |
-| [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 35 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
+| [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 35 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 179 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 15 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 185 |
@@ -47,10 +47,10 @@ List of top 50 Github Brasil members based in your followers.
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 201 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 119 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1623 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1626 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 59 |
-| [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 71 |
+| [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 72 |
 | [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 50 |
 | [Jonny Borges](https://github.com/jonataslaw) | N/A | N/A | São Paulo, Brazil | 273 |
