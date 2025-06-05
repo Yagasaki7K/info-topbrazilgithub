@@ -32,7 +32,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 58 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Guanambi - Bahia - Brazil | 36 |
-| [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 180 |
+| [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 181 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 14 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 185 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 17 |
