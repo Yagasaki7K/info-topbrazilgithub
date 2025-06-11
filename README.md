@@ -54,5 +54,5 @@ List of top 50 Github Brasil members based in your followers.
 | [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 50 |
 | [Jonny Borges](https://github.com/jonataslaw) | N/A | N/A | São Paulo, Brazil | 273 |
-| [Bruno](https://github.com/bhza) | Working from home and  for privacy reasons prohibited by employment contract. 🔓 | N/A | Cidade cinza, <Grande> São Paulo,Brasil, Terra, Via láctea, {universo: null}  - Gray city, <Great> São Paulo, Brazil, Earth, Milky Way, {universe: null} .... ✴️ 🚀 | 97 |
+| [Luke Morales](https://github.com/lukemorales) | N/A | lukemorales | São Paulo, Brazil | 43 |
 <!-- END TOP USERS -->
