@@ -26,8 +26,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 225 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 4 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 239 |
-| [Aliane E. Amaral](https://github.com/AlianeAmaral) | @ AZ Tecnologia | @ EFCAZ | N/A | Campo Grande, MS - Brazil | 28 |
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 58 |
+| [Aliane E. Amaral](https://github.com/AlianeAmaral) | @ AZ Tecnologia | @ EFCAZ | N/A | Campo Grande, MS - Brazil | 28 |
 | [Daniel Reis](https://github.com/danielhe4rt) | N/A | danielhe4rt | Brazil | 211 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 210 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
