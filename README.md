@@ -40,7 +40,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Gabriel Froes](https://github.com/gabrielfroes) | Código Fonte TV & RW Studio | N/A | São José dos Campos - SP - Brazil | 36 |
 | [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 420 |
 | [Carlos Alexandro Becker](https://github.com/caarlos0) | @charmbracelet @goreleaser | caarlos0 | Brazil | 111 |
-| [Eduardo Pires](https://github.com/EduardoPires) | @desenvolvedor-io  | N/A | São Paulo - Brazil | 79 |
+| [Eduardo Pires](https://github.com/EduardoPires) | @desenvolvedor-io  | N/A | São Paulo - Brazil | 85 |
 | [Paulo Silveira](https://github.com/peas) | @caelum, @alura-cursos, Casa do Código, GUJ  | paulo_caelum | São Paulo, Brazil | 16 |
 | [cypherm0nk](https://github.com/cypherm0nk) | E Corp | N/A | Brazil | 10 |
 | [Rafael Caferati](https://github.com/rcaferati) | N/A | rcaferati | Brazil | 6 |
@@ -48,7 +48,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 119 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1678 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1679 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 60 |
 | [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 75 |
