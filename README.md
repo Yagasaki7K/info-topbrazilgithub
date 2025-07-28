@@ -29,7 +29,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 242 |
 | [Aliane Amaral](https://github.com/AlianeAmaral) | N/A | N/A | Campo Grande, MS - Brazil | 34 |
 | [Daniel Reis](https://github.com/danielhe4rt) | N/A | danielhe4rt | Brazil | 212 |
-| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 212 |
+| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 215 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 14 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 184 |
@@ -47,8 +47,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 201 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 119 |
-| [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
 | [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1679 |
+| [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 60 |
 | [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 75 |
