@@ -14,8 +14,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Erick Wendel](https://github.com/ErickWendel) | @ew-academy  | erickwendel_ | São Paulo - Brazil | 325 |
 | [Arthur Coutinho](https://github.com/arthurspk) | Guia Dev Brasil | manotoquinho | Alagoas, Brazil | 161 |
 | [Curso em Vídeo](https://github.com/cursoemvideo) | N/A | N/A | Brazil | 5 |
-| [Aline Angela Ibers](https://github.com/alineai18) | XSS | N/A | Brazil | 4 |
 | [Otavio Sousa](https://github.com/otaviossousa) | N/A | N/A | Brazil | 44 |
+| [Aline Angela Ibers](https://github.com/alineai18) | XSS | N/A | Brazil | 4 |
 | [Rafael Carneiro](https://github.com/Rafaelmdcarneiro) | O2D On Demand Development | N/A | Brazil | 285 |
 | [Luiz Otávio](https://github.com/luizomf) | None | otaviomirandabr | Boa Esperança, MG, Brazil | 115 |
 | [Camila Cavalcante](https://github.com/cami-la) | N/A | N/A | Pernambuco, Brazil | 163 |
@@ -54,5 +54,5 @@ List of top 50 Github Brasil members based in your followers.
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 75 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 53 |
 | [Jonny Borges](https://github.com/jonataslaw) | N/A | N/A | São Paulo, Brazil | 273 |
-| [Bruno](https://github.com/bhza) | Working from home and  for privacy reasons prohibited by employment contract. 🔓 | N/A | Cidade cinza, <Grande> São Paulo,Brasil, Terra, Via láctea, {universo: null}  - Gray city, <Great> São Paulo, Brazil, Earth, Milky Way, {universe: null} .... ✴️ 🚀 | 98 |
+| [Luis Cabral](https://github.com/oluiscabral) | Studorama | N/A | São Paulo, Brazil | 37 |
 <!-- END TOP USERS -->
