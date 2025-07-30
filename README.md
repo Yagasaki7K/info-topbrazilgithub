@@ -30,10 +30,10 @@ List of top 50 Github Brasil members based in your followers.
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 242 |
 | [Aliane Amaral](https://github.com/AlianeAmaral) | N/A | N/A | Campo Grande, MS - Brazil | 34 |
 | [Daniel Reis](https://github.com/danielhe4rt) | N/A | danielhe4rt | Brazil | 212 |
-| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 215 |
+| [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 217 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 14 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
-| [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 184 |
+| [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 185 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Caetité - Bahia - Brazil | 36 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 14 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 186 |
@@ -52,7 +52,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1680 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 60 |
 | [Luis Cabral](https://github.com/oluiscabral) | Studorama | N/A | São Paulo, Brazil | 37 |
-| [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 75 |
+| [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 53 |
 <!-- END TOP USERS -->
