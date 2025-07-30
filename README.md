@@ -22,7 +22,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Camila Cavalcante](https://github.com/cami-la) | N/A | N/A | Pernambuco, Brazil | 163 |
 | [Felipe Fialho](https://github.com/felipefialho) | @juntossomosmais, @frontendbr  | felipefialho_ | Sao Paulo - Brazil | 37 |
 | [Fernanda Kipper](https://github.com/Fernanda-Kipper) | N/A | kipperdev | Brazil | 82 |
-| [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 309 |
+| [Rodrigo Branas](https://github.com/rodrigobranas) | N/A | rodrigobranas | Florianópolis, Brazil | 310 |
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 66 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 225 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 3 |
@@ -48,8 +48,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Fernando Daciuk](https://github.com/fdaciuk) | @queroserninja | fdaciuk | Somewhere in Brazil | 201 |
 | [Vitor Freitas](https://github.com/vitorfs) | @eskolare | vitorfs | São Paulo, Brazil | 46 |
 | [Laura Beatris](https://github.com/LauraBeatris) | @clerk | lauradotjs | Florianópolis, Brazil | 119 |
-| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1680 |
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 72 |
+| [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1680 |
 | [Leonardo Maldonado](https://github.com/leonardomso) | N/A | leonardomso | Franca, São Paulo, Brazil | 60 |
 | [Luis Cabral](https://github.com/oluiscabral) | Studorama | N/A | São Paulo, Brazil | 37 |
 | [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 75 |
