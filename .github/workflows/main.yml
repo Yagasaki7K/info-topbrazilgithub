@@ -1,4 +1,4 @@
-name: Update Top GitHub Users - Brazil
+name: Update Top GitHub Users
 
 on:
   schedule:
@@ -38,33 +38,25 @@ jobs:
 
       - name: Run the update script
         run: |
-          echo "🇧🇷 Buscando usuários brasileiros no GitHub..."
+          echo "🔍 Buscando usuários brasileiros no GitHub..."
           python - <<EOF
           from github import Github, Auth
-          from datetime import datetime
-          import time, os
+          import os
 
+          # Autenticação atualizada
           auth = Auth.Token(os.getenv("GITHUB_TOKEN"))
           g = Github(auth=auth)
 
-          def handle_rate_limit_exceeded():
-              rate_limit = g.get_rate_limit().search
-              if rate_limit.remaining == 0:
-                  reset_time = rate_limit.reset - datetime.now()
-                  sleep_time = max(reset_time.total_seconds(), 0)
-                  print(f"⚠️ Rate limit exceeded. Sleeping for {sleep_time} seconds.")
-                  time.sleep(sleep_time)
-
-          query = "location:Brazil type:user sort:followers-desc"
+          # Busca de usuários brasileiros
+          query = "location:Brazil sort:followers-desc"
           try:
               result = g.search_users(query)[:50]
           except Exception as e:
-              print(f"❌ Error fetching users: {e}")
+              print(f"❌ Erro ao buscar usuários: {e}")
               result = []
 
           top_users = []
           for user in result:
-              handle_rate_limit_exceeded()
               name = user.name or "N/A"
               company = user.company or "N/A"
               twitter_username = user.twitter_username or "N/A"
