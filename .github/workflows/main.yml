@@ -1,4 +1,4 @@
-name: Update Top GitHub Users
+name: Update Top GitHub Users - Brazil
 
 on:
   schedule:
@@ -38,23 +38,24 @@ jobs:
 
       - name: Run the update script
         run: |
-          echo "🔍 Buscando usuários no GitHub..."
+          echo "🇧🇷 Buscando usuários brasileiros no GitHub..."
           python - <<EOF
-          from github import Github
+          from github import Github, Auth
           from datetime import datetime
           import time, os
 
-          g = Github(os.getenv('GITHUB_TOKEN'))
+          auth = Auth.Token(os.getenv("GITHUB_TOKEN"))
+          g = Github(auth=auth)
 
           def handle_rate_limit_exceeded():
-              rate_limit = g.get_rate_limit().core
+              rate_limit = g.get_rate_limit().search
               if rate_limit.remaining == 0:
                   reset_time = rate_limit.reset - datetime.now()
                   sleep_time = max(reset_time.total_seconds(), 0)
                   print(f"⚠️ Rate limit exceeded. Sleeping for {sleep_time} seconds.")
                   time.sleep(sleep_time)
 
-          query = 'location:Brazil sort:followers-desc'
+          query = "location:Brazil type:user sort:followers-desc"
           try:
               result = g.search_users(query)[:50]
           except Exception as e:
@@ -94,7 +95,7 @@ jobs:
         run: |
           if ! git diff --quiet README.md; then
             git add README.md
-            git commit -m "Update Top 50 Brazilian GitHub Users - $(date +'%Y-%m-%d %H:%M:%S') [skip ci]"
+            git commit -m "🇧🇷 Update Top 50 Brazilian GitHub Users - $(date +'%Y-%m-%d %H:%M:%S') [skip ci]"
             git push origin main
           else
             echo "✅ Nenhuma alteração detectada no README."
