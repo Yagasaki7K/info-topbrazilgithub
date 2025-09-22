@@ -2,99 +2,100 @@ name: Update Top GitHub Users
 
 on:
   schedule:
-    - cron: "0 * * * 1-5"  # Executa a cada hora, de segunda a sexta-feira
-  workflow_dispatch:  # Permite execução manual
+    - cron: "0 * * * 1-5" # Executa a cada hora, de segunda a sexta-feira
+  workflow_dispatch: # Permite execução manual
 
 permissions:
-  contents: write  # Permite escrita no repositório
+  contents: write
 
 jobs:
   update-users:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-    - name: Install PyGithub
-      run: |
-        pip install PyGithub
+      - name: Cache Python packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
-    - name: Run the update script and update README
-      run: |
-        python - <<EOF
-        from github import Github
-        from datetime import datetime
-        import time
-        import os
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub
 
-        g = Github(os.getenv('GITHUB_TOKEN'))
+      - name: Run the update script
+        run: |
+          echo "🔍 Buscando usuários no GitHub..."
+          python - <<EOF
+          from github import Github
+          from datetime import datetime
+          import time, os
 
-        def handle_rate_limit_exceeded():
-            rate_limit = g.get_rate_limit().core
-            if rate_limit.remaining == 0:
-                reset_time = rate_limit.reset - datetime.now()
-                sleep_time = max(reset_time.total_seconds(), 0)
-                print(f"Rate limit exceeded. Sleeping for {sleep_time} seconds.")
-                time.sleep(sleep_time)
+          g = Github(os.getenv('GITHUB_TOKEN'))
 
-        cached_users = {}  # Ou use um arquivo ou banco de dados para persistência
+          def handle_rate_limit_exceeded():
+              rate_limit = g.get_rate_limit().core
+              if rate_limit.remaining == 0:
+                  reset_time = rate_limit.reset - datetime.now()
+                  sleep_time = max(reset_time.total_seconds(), 0)
+                  print(f"⚠️ Rate limit exceeded. Sleeping for {sleep_time} seconds.")
+                  time.sleep(sleep_time)
 
-        query = 'location:Brazil sort:followers-desc'
-        try:
-            result = g.search_users(query)[:50]
-        except Exception as e:
-            print(f"Error fetching users: {e}")
-            result = []
+          query = 'location:Brazil sort:followers-desc'
+          try:
+              result = g.search_users(query)[:50]
+          except Exception as e:
+              print(f"❌ Error fetching users: {e}")
+              result = []
 
-        top_users = []
-        for user in result:
-            handle_rate_limit_exceeded()
+          top_users = []
+          for user in result:
+              handle_rate_limit_exceeded()
+              name = user.name or "N/A"
+              company = user.company or "N/A"
+              twitter_username = user.twitter_username or "N/A"
+              location = user.location or "N/A"
+              repositories = user.public_repos
 
-            if user.login in cached_users:
-                user_info = cached_users[user.login]
-            else:
-                name = user.name or "N/A"
-                company = user.company or "N/A"
-                twitter_username = user.twitter_username or "N/A"
-                location = user.location or "N/A"
-                repositories = user.public_repos
+              user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} |"
+              top_users.append(user_info)
 
-                user_info = f"| [{name}](https://github.com/{user.login}) | {company} | {twitter_username} | {location} | {repositories} |"
-                cached_users[user.login] = user_info
+          top_users_content = "\n".join(top_users)
+          new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Repositories |\n|------|---------|------------------|----------|--------------|\n{top_users_content}\n<!-- END TOP USERS -->"
 
-            top_users.append(user_info)
+          with open('README.md', 'r') as file:
+              readme_content = file.read()
 
-        top_users_content = "\n".join(top_users)
-        new_content = f"<!-- START TOP USERS -->\n| Name | Company | Twitter Username | Location | Repositories |\n|------|---------|------------------|----------|--------------|\n{top_users_content}\n<!-- END TOP USERS -->"
+          updated_readme = readme_content.split('<!-- START TOP USERS -->')[0] + new_content + readme_content.split('<!-- END TOP USERS -->')[1]
 
-        with open('README.md', 'r') as file:
-            readme_content = file.read()
+          with open('README.md', 'w') as file:
+              file.write(updated_readme)
+          EOF
 
-        updated_readme = readme_content.split('<!-- START TOP USERS -->')[0] + new_content + readme_content.split('<!-- END TOP USERS -->')[1]
+      - name: Configure Git user
+        run: |
+          git config --global user.email "anderson18.marlon@gmail.com"
+          git config --global user.name "GitHub Actions"
 
-        with open('README.md', 'w') as file:
-            file.write(updated_readme)
-        EOF
-
-    - name: Configure Git user
-      run: |
-        git config --global user.email "anderson18.marlon@gmail.com"
-        git config --global user.name "GitHub Actions"
-
-    - name: Commit and push changes if README is updated
-      run: |
-        if ! git diff --quiet README.md; then
-          git add README.md
-          git commit -m "Update Top 50 Brazilian GitHub Users [skip ci]"
-          git push origin main
-        else
-          echo "No changes to commit."
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes if README updated
+        run: |
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "Update Top 50 Brazilian GitHub Users - $(date +'%Y-%m-%d %H:%M:%S') [skip ci]"
+            git push origin main
+          else
+            echo "✅ Nenhuma alteração detectada no README."
+          fi
