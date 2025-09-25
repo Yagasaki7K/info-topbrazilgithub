@@ -39,7 +39,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 13 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Caetité - Bahia - Brazil | 36 |
 | [Eduardo Mendes](https://github.com/dunossauro) | @livedepython | N/A | São Paulo, Brazil | 189 |
-| [Carlos Alexandro Becker](https://github.com/caarlos0) | @charmbracelet @goreleaser | caarlos0 | Brazil | 117 |
+| [Carlos Alexandro Becker](https://github.com/caarlos0) | @charmbracelet @goreleaser | caarlos0 | Brazil | 118 |
 | [Gabriel Froes](https://github.com/gabrielfroes) | Código Fonte TV & RW Studio | N/A | São José dos Campos - SP - Brazil | 38 |
 | [Rodrigo Manguinho](https://github.com/rmanguinho) | Lead software architect & online instructor | r_manguinho | Rio de Janeiro, Brazil | 12 |
 | [Andre Baltieri](https://github.com/andrebaltieri) | @balta-io | andrebaltieri | São Paulo, SP - Brazil | 421 |
