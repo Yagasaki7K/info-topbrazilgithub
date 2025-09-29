@@ -26,7 +26,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 66 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 225 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 3 |
-| [Jefferson Gonçalves](https://github.com/jeffersongoncalves) | N/A | N/A | Assis, SP, Brazil | 25 |
+| [Jefferson Gonçalves](https://github.com/jeffersongoncalves) | N/A | N/A | Assis, SP, Brazil | 23 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 14 |
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 60 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 243 |
@@ -53,6 +53,6 @@ List of top 50 Github Brasil members based in your followers.
 | [João Moura](https://github.com/joaomdmoura) | @crewAIInc | joaomdmoura | São Paulo, SP, Brazil | 73 |
 | [Renato Groffe](https://github.com/renatogroffe) | N/A | N/A | Brazil | 1715 |
 | [Back-End Brasil](https://github.com/backend-br) | N/A | N/A | Brazil | 9 |
-| [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 76 |
+| [Monica Hillman](https://github.com/MonicaHillman) | MagaluCloud, Alura  | monihillman | São Paulo - SP, Brazil | 77 |
 | [Giovanna Moeller](https://github.com/giovannamoeller) | N/A | N/A | São Paulo, Brazil | 22 |
 <!-- END TOP USERS -->
