@@ -26,7 +26,7 @@ List of top 50 Github Brasil members based in your followers.
 | [Venilton FalvoJr](https://github.com/falvojr) | @digitalinnovationone | falvojr | Araraquara-SP, Brazil | 66 |
 | [Avelino](https://github.com/avelino) | @buserbrasil | avelinorun | Brazil | 225 |
 | [Front-end Brasil](https://github.com/frontendbr) | N/A | frontendbr | Brazil | 3 |
-| [Jefferson Gonçalves](https://github.com/jeffersongoncalves) | N/A | N/A | Assis, SP, Brazil | 23 |
+| [Jefferson Gonçalves](https://github.com/jeffersongoncalves) | N/A | N/A | Assis, SP, Brazil | 38 |
 | [Universidade Brasileira Livre](https://github.com/Universidade-Livre) | N/A | UBLivre | Brazil | 14 |
 | [Felipe Silva Aguiar](https://github.com/felipeAguiarCode) | @digitalinnovationone | N/A | São paulo - SP, Brazil | 60 |
 | [Victor Taelin](https://github.com/VictorTaelin) | Higher Order Company | VictorTaelin | Rio de Janeiro, Brazil | 243 |
