@@ -33,8 +33,8 @@ List of top 50 Github Brasil members based in your followers.
 | [Aliane Amaral](https://github.com/AlianeAmaral) | AZ Tecnologia em Gestão | N/A | Campo Grande, MS - Brazil | 18 |
 | [Daniel Reis](https://github.com/danielhe4rt) | N/A | danielhe4rt | Brazil | 216 |
 | [Guilherme Rambo](https://github.com/insidegui) | Best Buddy Apps | _inside | Brazil | 217 |
-| [oluiscabral](https://github.com/oluiscabral) | @studorama @ARK-Builders @taran-space | N/A | São Paulo, Brazil | 39 |
 | [Rocketseat](https://github.com/Rocketseat) | N/A | rocketseat | Brazil | 32 |
+| [oluiscabral](https://github.com/oluiscabral) | @studorama @ARK-Builders @taran-space | N/A | São Paulo, Brazil | 39 |
 | [Lucas Magalhães](https://github.com/lucasrmagalhaes) | @Fiergs | lucaormagalhaes | Canoas, RS - Brazil | 191 |
 | [Jakeliny Gracielly](https://github.com/jakeliny) | N/A | N/A | Brazil | 13 |
 | [Rodrigo Costa](https://github.com/Rodrigo-Cn) | N/A | N/A | Caetité - Bahia - Brazil | 36 |
